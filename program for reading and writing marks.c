@@ -10,7 +10,7 @@ int main() {
 	struct s a[10],b[10];
 	FILE *fptr;
 	int i;
-	fptr=fopen("E:\\Softwares\\C_Programs\\shrifal_177_C_Programs_Repository\\034_ReadWriteMarks.txt","wb");
+	fptr=fopen("E:\\Softwares\\C_Programs\\Aayat_163_C_Programs_Repository\\034_ReadWriteMarks.txt","wb");
 	for (i=0;i<1;++i) {
 		fflush(stdin);
 		printf("Enter Name: ");
@@ -22,7 +22,7 @@ int main() {
 	}
 	fwrite(a,sizeof(a),1,fptr);
 	fclose(fptr);
-	fptr=fopen("E:\\Softwares\\C_Programs\\shrifal_177_C_Programs_Repository\\034_ReadWriteMarks.txt","rb");
+	fptr=fopen("E:\\Softwares\\C_Programs\\Aayat_136_C_Programs_Repository\\034_ReadWriteMarks.txt","rb");
 	fread(b,sizeof(b),1,fptr);
 	printf("\n Entered details are:\n");
 	for (i=0;i<1;++i) {
